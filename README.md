@@ -22,7 +22,7 @@ Connect restaurants, hostels, or homes with NGOs or shelters to donate extra foo
 5. **Donor History Page**  
    View past donations (both food and money).
 
-6. **Admin Dashboard (Optional)**  
+6. **Admin Dashboard**  
    Manage and view all donations in one place.
 
 ---
