@@ -1,0 +1,156 @@
+/* Container with background */
+/* Top-left logo */
+.top-left-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Logo image (if using image instead of icon) */
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* Logo icon (FontAwesome) */
+.logo-icon {
+  font-size: 1.6rem;
+  color: white;
+  margin-right: 10px;
+}
+
+/* Logo text */
+.logo-text {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+.home-container {
+  background-image: url('../assets/images/FoodDonate.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Top-right button placement */
+.top-right-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+/* Individual button styling */
+.home-button {
+  padding: 10px 18px;
+  background-color: #15a569;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.home-button:hover {
+  background-color: #45d8bb;
+}
+
+/* Overlay in center */
+.overlay {
+  background-color: transparent;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  width: 90%;
+  max-width: 600px;
+}
+
+.how-it-works {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.step {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.step h3 {
+  margin-bottom: 10px;
+  color: #006400;
+}
+
+@media (min-width: 768px) {
+  .steps-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .step {
+    width: 30%;
+  }
+}
+
+
+/* Footer stays the same */
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.3rem;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffc107;
+}

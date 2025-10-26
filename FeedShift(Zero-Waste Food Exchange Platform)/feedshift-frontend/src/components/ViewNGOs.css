@@ -1,0 +1,38 @@
+/* NearbyNGOs.css */
+.ngo-map-container {
+  margin: 50px auto;
+  max-width: 1200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.ngo-map-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.ngo-map-wrapper {
+  background-color: #83cbe1;  /* Light blue-gray background */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.ngo-map-container {
+  width: 90%;
+  height: 80vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+@media (max-width: 768px) {
+  .ngo-map-container {
+    padding: 10px;
+  }
+
+  .ngo-map-title {
+    font-size: 1.5rem;
+  }
+}
