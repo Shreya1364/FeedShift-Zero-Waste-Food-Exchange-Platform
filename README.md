@@ -53,7 +53,7 @@ Connect restaurants, hostels, or homes with NGOs or shelters to donate extra foo
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/Zero-Waste-Food-Exchange.git
+git clone https://github.com/Shreya1364/Zero-Waste-Food-Exchange.git
 
 cd frontend
 npm install
