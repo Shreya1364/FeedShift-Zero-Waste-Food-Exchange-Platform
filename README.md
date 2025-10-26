@@ -34,7 +34,6 @@ Connect restaurants, hostels, or homes with NGOs or shelters to donate extra foo
 - **Extras & APIs:**  
   - Google Maps API – Display NGO locations  
   - Email/SMS alerts – Notify donors and NGOs  
-  - Expiry Timer – Automatically mark expired food donations  
   - Donor History – Keep track of donations  
   - Razorpay – For money donations  
 
