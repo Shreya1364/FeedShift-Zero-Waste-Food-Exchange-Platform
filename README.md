@@ -33,7 +33,8 @@ Connect restaurants, hostels, or homes with NGOs or shelters to donate extra foo
 - **Backend:** PHP  
 - **Extras & APIs:**  
   - Google Maps API – Display NGO locations  
-  - Email/SMS alerts – Notify donors and NGOs  
+  - OTP Verification via SMS
+  - SMS alerts – Notify donors and NGOs  
   - Donor History – Keep track of donations  
   - Razorpay – For money donations  
 
